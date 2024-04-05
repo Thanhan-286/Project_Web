@@ -1,0 +1,112 @@
+:root {
+    --color-stroke: #c2c2c2;
+    --color-headerText: #666872;
+    --color-background: #d9d9d9;
+    --color-1: #898181;
+    --color-2: rgb(94, 91, 91);
+    
+}
+
+.sticky-bar {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    z-index: 100;
+    border-top: 2px solid #c2c2c2;
+    border-bottom: 2px solid #c2c2c2;
+}
+
+.sticky-bar a {
+    text-decoration: none;
+    color: #8c8787;
+    margin: 0 10px;
+}
+.sticky-bar a:hover {
+    text-decoration:none;
+    color: #000000;
+    margin: 0 10px;
+}
+
+
+.p1 .row {
+    padding-top: 15px;
+    margin: 30px 0 100px 0;
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+}
+.p1 p:hover {
+    text-decoration: underline; 
+    box-sizing: border-box;   
+    transform: translateX(5px);
+    color: #000;
+}
+.p1 p {
+    color: var(--color-1);
+    transition: all 0.2s ease;
+}
+
+#show-more {
+    height: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+
+}
+
+#show-more:active {
+    height: 1000px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accessories .accessories-title {
+    
+    transition: all 0.2s ease;
+    
+}
+.accessories .accessories-title:hover {
+    color: #000;
+    text-decoration: underline;
+    transform: translateX(5px);
+}
+.accessories .accessory-item {
+
+    transition: all 0.2s ease;
+
+}
+.accessories .accessory-item:hover {
+    color: #000;
+    transform: translateX(5px);
+}
+.link-item {
+    text-decoration: none;
+    color: #333;
+    width: 300px;
+}
+.link-item:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* @media (width < 600px){ 
+    .container { background-color: red;}
+}
+@media (width >= 600px){
+    .container{ background-color: blue;}
+} */
