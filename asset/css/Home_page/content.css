@@ -1,0 +1,158 @@
+@charset "UTF-8";
+i {
+  transform: rotate(270deg);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+.row-item-1{
+  justify-content: flex-end;
+}
+.row-item-1,
+.row-item {
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg") center center;
+  background-repeat: no-repeat !important;
+  background-size: 100% ;
+  object-fit: contain;
+  max-width: 100%;
+  min-height: 34.55em;
+  display: flex;
+}
+
+#item2{
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx80-luxury-suv-dsk.jpg');
+
+}
+#item3{
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx60-luxury-crossover-coupe-dsk-v1.jpg');
+}
+
+#item4 {
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx50-luxury-sports-car-dsk-v1.jpg");
+}
+
+#item5{
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx55-luxury-crossover-coupe-dsk-v2.jpg");
+}
+
+#item6{
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q50-luxury-sedan-dsk-v1.jpg');
+}
+
+#item7{
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q60-luxury-coupe-dsk-v1.jpg");
+}
+#item8{
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/vi/HP-PFA.jpg");
+}
+
+
+.content-item {
+  display: flex;
+  padding-left: 6%;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-item-1 {
+  display: flex;
+  padding-right: 6%;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  color: aliceblue;
+  /* color: black; */
+}
+
+.button-item {
+  margin-top: 6%;
+  margin-right: 60%;
+}
+
+.button-item button {
+  background-color: bisque;
+  border-radius: 15px;
+}
+
+/* Animation scroll */
+
+
+
+@media screen and (max-width: 600px) {
+  .button-item button {
+    background-color: bisque;
+    width: 100vw;
+  }
+  .row-item-1,
+  .row-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 1vh;
+    display: flex;
+  }
+  .text {
+    color: aliceblue;
+    font-size: 0.7em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  h5{
+    font-size: 0.8em;
+  }
+  .content-item {
+    display: flex;
+    padding-left: 6%;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content-item-1 {
+    display: flex;
+    padding-left: 6%;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .button-item button {
+    background-color: none;
+    width: 100vw;
+    margin-left: 25%;
+    border: 2px solid black;
+  }
+  .row-item-1 {
+    justify-content: flex-start;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .left-to-right{
+    transform: translateX(-10%);
+    transition: 1s;
+  }
+  .left-to-right.start{
+    transform: translateX(0);
+  }
+  .right-to-left{
+    transform: translateX(10%);
+    transition: 1s;
+  }
+  .right-to-left.start{
+    transform: translateX(0);
+  }
+    
+}
+
+
+/*# sourceMappingURL=content.css.map */
