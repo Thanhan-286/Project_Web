@@ -20,7 +20,12 @@
 
 .sticky-bar a {
     text-decoration: none;
-    color: #333;
+    color: #8c8787;
+    margin: 0 10px;
+}
+.sticky-bar a:hover {
+    text-decoration:none;
+    color: #000000;
     margin: 0 10px;
 }
 
