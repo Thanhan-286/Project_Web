@@ -1,0 +1,627 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #D9D9D9;
+}
+
+.collapse {
+    margin-left: 6%;
+}
+
+ul.navbar-nav>li {
+    margin-left: 2%;
+}
+
+.welecome {
+    display: flex;
+    border-radius: 10px;
+    background: url(img/welcome-img\ 1.svg) lightgray 50% / cover no-repeat;
+    max-width: calc(100%);
+    height: 699px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welecometext {
+    @media screen and (max-width: 768px) {
+        display: flex;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 201px;
+        height: 52px;
+        flex-shrink: 0;
+        margin-top: 100px;
+        margin-left: 55px;
+    }
+}
+
+.welecometext {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 402px;
+        height: 104px;
+        flex-shrink: 0;
+        margin-top: 200px;
+        margin-left: 111px;
+    }
+}
+
+.welecome .btn1 {
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    display: flex;
+    margin-left: 111px;
+    margin-top: 459px;
+}
+
+.welecome .btn2 {
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    display: flex;
+    margin-left: 111px;
+    margin-top: 549px;
+}
+
+.welecome .icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-top: 18px;
+    margin-left: 39px;
+}
+
+.welecome .textbt p {
+    margin-top: 22px;
+    margin-left: 24px;
+    display: flex;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.welecome .btn1:hover {
+    display: flex;
+    position: absolute;
+    width: 293px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    transform: scale(1.1);
+}
+
+.welecome .btn2:hover {
+    display: flex;
+    position: absolute;
+    width: 293px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    transform: scale(1.1);
+}
+
+.body .daucham {
+    width: 16px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: #525050;
+    position: absolute;
+    margin-left: calc(50%);
+    margin-top: 34px;
+}
+
+.body .outrunwinter {
+    @media screen and (max-width: 768px) {
+        width: 178.5px;
+        height: 250px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: #ffffff;
+        display: flex;
+    }
+    margin-top: 49px;
+    max-width: calc(100%);
+    height: 459px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #ffffff;
+    display: flex;
+}
+
+.body .outrunwinter .outrunwintertext {
+    @media screen and (max-width: 768px) {
+        width: 140px;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 20px;
+        margin-left: 27px;
+        display: flex;
+    }
+    width: 284.838px;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 49px;
+    margin-left: 56.97px;
+    display: flex;
+}
+
+.body .outrunwinter .imgcar {
+    @media screen and (max-width: 768px) {
+        display: flex;
+        max-width: calc(100%);
+        height: 230px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        margin-top: 20px;
+    }
+    display: flex;
+    max-width: calc(100%);
+    height: 460px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    margin-top: 49px;
+}
+
+.imgcar:hover {
+    transform: scale(1.01);
+}
+
+.btncard {
+    @media screen and (max-width: 768px) {
+        width: 159px;
+        height: 30px;
+        flex-shrink: 0;
+        mix-blend-mode: luminosity;
+        border-radius: 22px;
+        margin-top: 30px;
+        margin-left: 40px;
+        display: none;
+        justify-content: center;
+        position: absolute;
+    }
+    background-color: #D9D9D9;
+    width: 319.828px;
+    height: 61px;
+    flex-shrink: 0;
+    mix-blend-mode: luminosity;
+    border-radius: 22px;
+    margin-top: 61px;
+    margin-left: 80.66px;
+    display: none;
+    position: absolute;
+}
+
+.imgcar:hover .btncard {
+    display: flex;
+}
+
+.btncard .textbtncard {
+    @media screen and (max-width: 768px) {
+        width: 79px;
+        height: 15px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 8px;
+        margin-left: 20px;
+        display: flex;
+    }
+    width: 153px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: 83.34px;
+    display: flex;
+}
+
+.body .thaydau {
+    @media screen and (max-width: 557px) {
+        max-width: 557px;
+        height: 300px;
+        flex-shrink: 0;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        max-width: 768px;
+        height: 350px;
+        flex-shrink: 0;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    max-width: calc(100%);
+    height: 600px;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.thaydau .imgthaydau {
+    @media screen and (max-width: 557px) {
+        width: 25%px;
+        height: 300px;
+        flex-shrink: 0;
+        background: url(img/thaydau.svg) lightgray 50% / cover no-repeat;
+        border-radius: 10px;
+        display: flex;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        width: 30%;
+        height: 350px;
+        flex-shrink: 0;
+        background: url(img/thaydau.svg) lightgray 50% / cover no-repeat;
+        border-radius: 10px;
+        display: flex;
+    }
+    width: 50%;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(img/thaydau.svg) lightgray 50% / cover no-repeat;
+    border-radius: 10px;
+    display: flex;
+}
+
+.imgthaydau {
+    @media screen and (max-width: 557px) {
+        width: 25%px;
+        height: 300px;
+        flex-shrink: 0;
+        background: url(img/thaydau.svg) lightgray 50% / cover no-repeat;
+        border-radius: 10px;
+        display: flex;
+    }
+}
+
+.body .thaydau .textthaydau {
+    @media screen and (max-width: 557px) {
+        width: 260px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        width: 310px;
+        height: 200px;
+        flex-shrink: 0;
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    width: 550px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.textthaydau .textdoimau1 {
+    @media screen and (max-width: 557px) {
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        margin: auto;
+        animation: colorchange 500ms infinite linear;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        margin: auto;
+        animation: colorchange 500ms infinite linear;
+    }
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    margin: auto;
+    animation: colorchange 500ms infinite linear;
+    transition: all 1s ease-out infinite linear;
+}
+
+@keyframes colorchange {
+    0% {
+        background: linear-gradient(90deg, #2E2C8B 2.9%, #110B07 28.9%, #FFF 50.4%, #A3BB43 77.4%, #BC5959 96.4%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background: linear-gradient(90deg, #A16F53 0%, #110B07 22.4%, #A3BB43 47.4%, #2E2C8B 69.9%, #BC5959 94.9%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: linear-gradient(90deg, #CAB0A1 1%, #286E66 24%, #13188A 48.5%, #A7AE59 74.5%, #161012 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.textthaydau .textdoimau2 {
+    @media screen and (max-width: 557px) {
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        margin: auto;
+        animation: colorchange 500ms infinite linear;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        margin: auto;
+        animation: colorchange 500ms infinite linear;
+    }
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #110B07 1%, #A16F53 24%, #A3BB43 48.5%, #BC5959 74.5%, #2E2C8B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    margin: auto;
+    animation: colorchange 500ms infinite linear;
+    transition: all 1s ease-out infinite linear;
+}
+
+.btnthaydau {
+    @media screen and (max-width: 557px) {
+        display: flex;
+        border-radius: 12px;
+        background: #D9D9D9;
+        mix-blend-mode: luminosity;
+        width: 100px;
+        height: 56px;
+        flex-shrink: 0;
+        float: left;
+        margin-top: 40%;
+        transition: all 300ms ease-out;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        display: flex;
+        border-radius: 12px;
+        background: #D9D9D9;
+        mix-blend-mode: luminosity;
+        width: 150px;
+        height: 56px;
+        flex-shrink: 0;
+        float: left;
+        margin-top: 40%;
+        transition: all 300ms ease-out;
+    }
+    display: flex;
+    border-radius: 12px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    width: 261px;
+    height: 56px;
+    flex-shrink: 0;
+    float: left;
+    margin-top: 40%;
+    transition: all 300ms ease-out;
+}
+
+.btnthaydau .iconthaydau {
+    @media screen and (max-width: 557px) {
+        width: 16.954px;
+        height: 15px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        width: 25.431px;
+        height: 22.5px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+    width: 33.909px;
+    height: 33px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.btnthaydau .textbtnthaydau {
+    margin: auto;
+}
+
+.btnthaylop {
+    @media screen and (max-width: 557px) {
+        display: flex;
+        border-radius: 12px;
+        background: #D9D9D9;
+        mix-blend-mode: luminosity;
+        width: 100px;
+        height: 56px;
+        flex-shrink: 0;
+        float: right;
+        margin-top: 40%;
+        transition: all 300ms ease-out;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        display: flex;
+        border-radius: 12px;
+        background: #D9D9D9;
+        mix-blend-mode: luminosity;
+        width: 150px;
+        height: 56px;
+        flex-shrink: 0;
+        float: right;
+        margin-top: 40%;
+        transition: all 300ms ease-out;
+    }
+    display: flex;
+    border-radius: 12px;
+    background: #D9D9D9;
+    mix-blend-mode: luminosity;
+    width: 261px;
+    height: 56px;
+    flex-shrink: 0;
+    float: right;
+    margin-top: 40%;
+    transition: all 300ms ease-out;
+}
+
+.btnthaylop .iconthaylop {
+    @media screen and (max-width: 557px) {
+        width: 16.954px;
+        height: 15px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+    @media screen and (min-width: 557px) and (max-width: 1200px) {
+        width: 25.431px;
+        height: 22.5px;
+        flex-shrink: 0;
+        margin: auto;
+    }
+    width: 48.295px;
+    height: 43.148px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.btnthaylop .textbtnthaylop {
+    margin: auto;
+}
+
+.btnthaydau:hover {
+    transform: scale(1.1);
+}
+
+.btnthaylop:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    transition: all 300ms ease-out;
+}
+
+.card {
+    overflow: hidden;
+    border: 0px;
+}
+
+.card-button {
+    display: none;
+    position: absolute;
+    /* Đặt vị trí tuyệt đối để có thể điều chỉnh theo tọa độ */
+    top: 40%;
+    /* Đặt ở giữa theo chiều dọc */
+    left: 50%;
+    /* Đặt ở giữa theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Dịch chuyển nút đi một nửa chiều rộng và chiều cao của chính nó */
+    border-radius: 18px;
+    background: #D9D9D9;
+    transition: all 300ms ease-out;
+    mix-blend-mode: luminosity;
+}
+
+.card:hover .card-button {
+    display: flex;
+    /* Hiển thị nút khi hover vào thẻ */
+}
+
+.card-button p {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 10px;
+}
